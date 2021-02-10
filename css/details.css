@@ -1,0 +1,61 @@
+body{
+    background-color:  rgb(25, 54, 41);
+}
+#mainNavbar {
+    font-size: 1.2rem;
+    font-weight: 100;  
+    font-weight: bold;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+    font-size:1.12rem;
+    font-weight: normal;
+  
+}
+
+#mainNavbar .nav-link:hover {
+    border-color: #f1ff5c;
+    color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 0.5rem -0.4rem #f1ff5c;
+    transform: translateY(-0.25rem);
+    font-family: 'Nova Flat', cursive;
+    font-size: 1rem;
+}
+
+#mainNavbar .navbar-brand {
+    color: hotpink;
+    font-size: 1.2rem;
+    border-color: #f1ff5c;
+    font-family: cursive;
+    border-radius: 0.5rem;
+    
+    padding: 2px;
+}
+#mainNavbar .navbar-brand:hover{
+
+    color: rgb(255, 255, 255);
+    font-size:1rem;
+    box-shadow: 0 0.5rem 0.5rem -0.01rem  #e5f13cfb;
+    transform: translateY(-0.25rem);
+}
+.headi{
+    color: honeydew;
+    width: 75rem;
+    height: 38rem;
+    background-color:black;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 2rem 6rem;
+    box-shadow: 10px 10px 5px 0 rgba(0,0,0, 0.75);
+    border-radius: 4rem;
+    line-height:1.7rem;
+    font-size: 1.3rem;
+}
+h1{
+    text-align: center;
+    color: goldenrod;
+}

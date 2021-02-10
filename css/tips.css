@@ -1,0 +1,133 @@
+body {
+    background:rgb(34, 30, 30);
+    font-family: "Nunito", sans-serif;
+}
+
+.blurb h2 {
+   color: rgb(255, 255, 255);
+   font-weight: 100;
+   font-size: 2rem;
+   font-style:normal;
+   font-weight: bold;
+}
+#quotes{
+    font-style:italic;
+    font-weight: lighter;
+    color: rgba(246, 247, 248, 0.993);
+    font-weight:normal;
+    font-size: 1.125rem;
+}
+
+.blurb p {
+    color: #e3e644;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.ulist{
+    color: cornflowerblue;
+}
+.x{
+    width: 20rem;
+}
+#one{
+    width:1629px;
+    border-top: 2.8rem solid #8f0794;
+    border-radius: 50%;
+    border-bottom-right-radius: 1rem;
+   
+
+}
+#two{ 
+    border-radius: 60%;
+  
+    border-top-left-radius: 1rem;
+    
+    border-bottom: 2rem inset #ac1ea0;
+
+}
+#three{
+    filter: brightness(90%);
+    filter: contrast(85%);
+    border-left: 2rem inset #ff0aef;
+    border-radius: 50%;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 2rem;
+}
+#four{
+    border-radius: 50%;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top: 2rem inset #ff0aef;
+    border-bottom-left-radius: 1rem;
+}
+#mainNavbar {
+    font-size: 1.2rem;
+    font-weight: 100;  
+    font-weight: bold;
+}
+
+#mainNavbar .nav-link {
+    color: rgb(11, 228, 119);
+    font-size:1.12rem;
+    font-weight: normal;
+  
+}
+
+#mainNavbar .nav-link:hover {
+    border-color: #f1ff5c;
+    color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 0.5rem -0.4rem #f1ff5c;
+    transform: translateY(-0.25rem);
+    font-family: 'Nova Flat', cursive;
+    font-size: 1rem;
+}
+
+#mainNavbar .navbar-brand {
+    color: hotpink;
+    font-size: 1.2rem;
+    border-color: #f1ff5c;
+    font-family: cursive;
+    border-radius: 0.5rem;
+    
+    padding: 2px;
+}
+#mainNavbar .navbar-brand:hover{
+
+    color: rgb(255, 255, 255);
+    font-size:1rem;
+    box-shadow: 0 0.5rem 0.5rem -0.01rem  #e5f13cfb;
+    transform: translateY(-0.25rem);
+}
+
+#headingGroup span {
+    color: #eaba1c;
+}
+
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.navbar.scrolled {
+    background: black;
+    transition: background 500ms;
+}
+
+@media (max-width: 1024px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 2rem;
+    }
+    .blurb h2 {
+        font-size: 1.5rem;
+    }
+}
+

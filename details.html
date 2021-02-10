@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="css/details.css">
+</head>
+<body>
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <a href="homepage.html" class="navbar-brand">HOME</a>
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="calculator.html" class="nav-link">CALCULATE</a>
+                </li>
+                <li class="nav-item">
+                    <a href="details.html" class="nav-link">DETAILS</a>
+                </li>
+	<li class="nav-item">
+                    <a href="tips.html" class="nav-link">TIPS AND CONCERN</a>
+                </li>
+	<li class="nav-item">
+                    <a href="contact.html" class="nav-link">CONTACT US</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+  <div class="headi">
+      <h1>DETAILS</h1>
+      <p> Body mass index (BMI) is a value derived from the mass (weight) and height of a person. The BMI 
+          is defined as the body mass divided by the square of the body height, and is universally 
+          expressed in units of kg/m2, resulting from mass in kilograms and height in metres.
+
+        The BMI may be determined using a table[note 1] or chart which displays BMI as a function of mass 
+        and height using contour lines or colours for different BMI categories, and which may use other 
+        units of measurement (converted to metric units for the calculation).[note 2]
+        
+        The BMI is a convenient rule of thumb used to broadly categorize a person as underweight, normal 
+        weight, overweight, or obese based on tissue mass (muscle, fat, and bone) and height. Commonly 
+        accepted BMI ranges are underweight (under 18.5 kg/m2), normal weight (18.5 to 25), overweight (25 
+        to 30), and obese (over 30).[1]
+        
+        BMIs under 20 and over 25 have been associated with higher all-causes mortality, with the risk 
+        increasing with distance from the 20–25 range.[2]
+        BMI provides a simple numeric measure of a person's thickness or thinness, allowing health 
+        professionals
+         to discuss weight problems more objectively with their patients. BMI was designed to be used as a 
+         simple means of classifying average sedentary (physically inactive) populations, with an average 
+         body composition.[9] For such individuals, the value recommendations as of 2014 are as follows: a 
+         BMI from 18.5 up to 25 kg/m2 may indicate optimal weight, a BMI lower than 18.5 suggests the 
+         person is underweight, a number from 25 up to 30 may indicate the person is overweight, and a 
+         number from 30 upwards suggests the person is obese.[7][8] Lean male athletes often have a high 
+         muscle-to-fat ratio and
+         therefore a BMI that is misleadingly high relative to their body-fat percentage.[8]</p>
+  </div> 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script> 
+</body>
+</html>
